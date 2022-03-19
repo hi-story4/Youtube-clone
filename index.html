@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube-clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/859ea36eb9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript.js" defer></script>
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!--video-->
+    <section class="player">
+      <video controls src="video/DunDun.mp4"></video>
+    </section>
+
+    <!--Info-->
+    <div class="infoAndUpNext">
+      <section class="info">
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#Junhyeok</li>
+            <li>#Computer Science</li>
+            <li>#Korea Univ</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp"
+              >오마이걸일까 조이현일까 뮤비는 오마이걸인데 밑에는 조이현
+              사진인데 사실 이건 그냥 글자수 채우려고 하는거임. 그래도 3줄이
+              안나오네 더 채우려고 노력해야겠다 언제쯤 개발을 편하게 할 수
+              있을까</span
+            >
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">1M views 1 month ago</span>
+        </div>
+
+        <ul class="actions">
+          <li>
+            <button><i class="active fas fa-thumbs-up"></i>1K</button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i>0</button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i>Share</button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i>Plus</button>
+          </li>
+          <li>
+            <button><i class="fas fa-font-awesome-flag"></i>Report</button>
+          </li>
+        </ul>
+        <div class="channel">
+          <div class="metadata">
+            <img src="image/01.jpg" alt="" />
+            <div class="info">
+              <span class="name">코딩 by 준혁</span>
+              <span class="subscribers">1M subscribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="image/02.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >조이현으로 할까 뭘할까 아무 사진이나 넣어봄</span
+              >
+              <span class="name">코딩 by 준혁</span>
+              <span class="views">82K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/03.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title">윈터사진도 있길래 한번 넣어봤다</span>
+              <span class="name">코딩 by 준혁</span>
+              <span class="views">95K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/04.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title">그렇지만 다시 조이현 사진을 붙여넣음.</span>
+              <span class="name">코딩 by 준혁</span>
+              <span class="views">102K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
